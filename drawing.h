@@ -1,5 +1,8 @@
 #pragma once
 
+namespace i2d 
+{
+
 ///////////////////////////////////////////////////////////////////////////////
 //
 // Immediate2D - Created by Nicholas Piegdon, released in the public domain
@@ -262,3 +265,5 @@ bool MiddleMousePressed();
 // currently hovering over our window
 int MouseX();
 int MouseY();
+
+}
